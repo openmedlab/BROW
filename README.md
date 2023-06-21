@@ -12,7 +12,7 @@ This repository provides the official implementation and pretrained models for B
 
 - Paper
 - [Model](https://drive.google.com/drive/folders/184TSs-rlzdttVWbRHIPCZgEYqIQNb9WB?usp=sharing)
-- [Code](https://) 
+- [Code](https://github.com/openmedlab/BROW)
 
 <!---
 ## Updates / TODOs
@@ -218,7 +218,7 @@ python eval.py \
 Here, we provide a complete example using [CLAM](https://github.com/mahmoodlab/CLAM) as classifier for training and testing on TCGA-BRCA dataset.  
 
 **Data Preparation**
-Download the feature embeddings from `embeddings` column in the table mentioned at [Slide-level multi-class subtyping task section](https://github.com/wustone1995/WSI_FoundationModel/tree/main#slide-level-multi-class-subtyping-task). Or generate them using the pre-trained models provided at [Links/Model](https://drive.google.com/drive/folders/184TSs-rlzdttVWbRHIPCZgEYqIQNb9WB?usp=sharing). The original WSI data can be found at the [Dataset links](https://github.com/wustone1995/WSI_FoundationModel/tree/main#dataset). 
+Download the feature embeddings from `embeddings` column in the table mentioned at [Slide-level multi-class subtyping task section](https://github.com/openmedlab/BROW#slide-level-multi-class-subtyping-task). Or generate them using the pre-trained models provided at [Links/Model](https://drive.google.com/drive/folders/184TSs-rlzdttVWbRHIPCZgEYqIQNb9WB?usp=sharing). The original WSI data can be found at the [Dataset links](https://github.com/openmedlab/BROW#dataset). 
 ```bash
 cd "Slide-level multi-class subtyping task/feature_extract"
 python extract_features.py \
@@ -238,7 +238,7 @@ FEAT_DIRECTORY/
         ├── slide_3.pt
         └── ...
 ```	
-The arguments used during training can be found in the `args` column of the [Slide-level multi-class subtyping task sections](https://github.com/wustone1995/WSI_FoundationModel#slide-level-multi-class-subtyping-task).
+The arguments used during training can be found in the `args` column of the [Slide-level multi-class subtyping task section](https://github.com/openmedlab/BROW#slide-level-multi-class-subtyping-task).
 Then train and test the model by 
 ```bash
 cd ..
