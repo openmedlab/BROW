@@ -10,7 +10,7 @@ This repository provides the official implementation and pretrained models for B
 
 ## Links
 
-- Paper
+- [Paper](https://arxiv.org/abs/2309.08259)
 - [Model](https://drive.google.com/drive/folders/184TSs-rlzdttVWbRHIPCZgEYqIQNb9WB?usp=sharing)
 - [Code](https://github.com/openmedlab/BROW)
 
